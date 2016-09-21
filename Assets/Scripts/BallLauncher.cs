@@ -6,7 +6,7 @@ public class BallLauncher : MonoBehaviour {
 	public GameObject ballPrefab;
 	public ScoreKeeper scoreKeeper;
 
-	public float ballSpeed = 25.0f;
+	public float ballSpeed = 45.0f;
 
 	// Use this for initialization
 	void Start () {
