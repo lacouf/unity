@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ScoreKeeper : MonoBehaviour {
 
+	static int GAMEOVERSCORE = 20;
+
 	public int score = 0;
 	public int shoot = 0;
 
@@ -24,5 +26,9 @@ public class ScoreKeeper : MonoBehaviour {
 
 	public void IncrementShoot() {
 		shoot++;
+	}
+
+	public bool isGameOver() {
+		return score >= GAMEOVERSCORE;
 	}
 }

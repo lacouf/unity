@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DetectScoring : MonoBehaviour {
+
+	static int GAMEOVERSCENE = 2;
 
 	public ScoreKeeper scoreKeeper;
 
@@ -20,6 +23,10 @@ public class DetectScoring : MonoBehaviour {
 			scoreKeeper = FindObjectOfType<ScoreKeeper> ();
 		}
 		print("Score: " + scoreKeeper.IncrementScore(1) + " with total shoot of : " + scoreKeeper.shoot);
+
+		if (scoreKeeper.isGameOver ()) {
+			SceneManager.LoadScene (GAMEOVERSCENE);
+		}
 
 	}
 }
