@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DetectScoring : MonoBehaviour {
 
-	//public ScoreKeeper scoreKeeper;
+	public ScoreKeeper scoreKeeper;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,9 @@ public class DetectScoring : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision) {
-		ScoreKeeper scoreKeeper = FindObjectOfType<ScoreKeeper>(); 
+		if (scoreKeeper == null) {
+			scoreKeeper = FindObjectOfType<ScoreKeeper> ();
+		}
 		print("Score: " + scoreKeeper.IncrementScore(1) + " with total shoot of : " + scoreKeeper.shoot);
 
 	}
