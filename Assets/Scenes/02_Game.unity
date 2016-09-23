@@ -122,8 +122,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.4, y: 29.7}
-  m_SizeDelta: {x: 55.9, y: 18.7}
+  m_AnchoredPosition: {x: -340, y: -168}
+  m_SizeDelta: {x: 89, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83148067
 MonoBehaviour:
@@ -146,10 +146,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 940d3cbb6fdc64fd4aac7787f58284fa, type: 3}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -196,8 +196,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -120.7, y: -14.4}
-  m_SizeDelta: {x: 55.9, y: 18.7}
+  m_AnchoredPosition: {x: -333.4, y: -264}
+  m_SizeDelta: {x: 90.807, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255039357
 MonoBehaviour:
@@ -220,10 +220,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 940d3cbb6fdc64fd4aac7787f58284fa, type: 3}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -270,8 +270,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.40001, y: 0.0000038147}
-  m_SizeDelta: {x: 55.9, y: 18.7}
+  m_AnchoredPosition: {x: -333.5, y: -235}
+  m_SizeDelta: {x: 102, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339498834
 MonoBehaviour:
@@ -294,10 +294,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 940d3cbb6fdc64fd4aac7787f58284fa, type: 3}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -432,7 +432,7 @@ Canvas:
   m_GameObject: {fileID: 431400905}
   m_Enabled: 1
   serializedVersion: 2
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1859818636}
   m_PlaneDistance: 10
   m_PixelPerfect: 0
@@ -505,10 +505,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeTillNextLevel: 0
-  scoreCanevas: {fileID: 0}
-  scoreKeeper: {fileID: 0}
-  scoreText: {fileID: 0}
-  shotsText: {fileID: 0}
 --- !u!4 &946772066
 Transform:
   m_ObjectHideFlags: 0
@@ -693,8 +689,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.40002, y: 13.7}
-  m_SizeDelta: {x: 55.9, y: 18.7}
+  m_AnchoredPosition: {x: -341.4, y: -199.77}
+  m_SizeDelta: {x: 91.804, y: 36.463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470607723
 MonoBehaviour:
@@ -717,10 +713,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 940d3cbb6fdc64fd4aac7787f58284fa, type: 3}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
