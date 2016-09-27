@@ -7,7 +7,6 @@ public class DetectScoring : MonoBehaviour {
 	static int GAMEOVERSCENE = 2;
 
 	public ScoreKeeper scoreKeeper;
-	public LevelManager levelManager;
 	public ScoreCanevas scoreCanevas;
 
 	// Use this for initialization

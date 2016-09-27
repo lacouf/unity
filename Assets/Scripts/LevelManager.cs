@@ -52,7 +52,8 @@ public class LevelManager : MonoBehaviour {
 		if (scoreKeeper == null) {
 			scoreKeeper = (ScoreKeeper) FindObjectOfType(typeof(ScoreKeeper));
 		}
-		if (scoreKeeper != null) {
+
+		if (scoreKeeper != null && scoreText != null) {
 			scoreText.text = scoreKeeper.score.ToString ();
 			shotsText.text = scoreKeeper.shoot.ToString ();
 		}
